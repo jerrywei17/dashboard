@@ -23,6 +23,6 @@ function* loginFlow() {
   }
 }
 
-export default {
+export {
   loginFlow
 }

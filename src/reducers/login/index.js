@@ -1,7 +1,7 @@
 const initLoginState = {
   isLogin: false,
   statue: 'pending'
-};
+}
 
 const loginReducer = (state = initLoginState, action) => {
   switch (action.type) {
@@ -28,6 +28,6 @@ const loginReducer = (state = initLoginState, action) => {
         return state;
       }
   }
-};
+}
 
-export default loginReducer;
+export default loginReducer
