@@ -53,7 +53,7 @@ class Header extends Component {
 
     return (
         <Container>
-          <div className="header__left header__child">
+          <div className="header__left header__child" onClick={left?left.props.onClick:null}>
             {left ? left.props.children : null}
           </div>
           <div className="header__content header__child">
